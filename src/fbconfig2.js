@@ -12,5 +12,5 @@ const fbconfig = {
     measurementId: "G-VRS3314CPK"
   };
   
-const app = initializeApp(firebaseConfig);
+const app = initializeApp(fbconfig);
 export const db = getFirestore(app);
